@@ -13,4 +13,3 @@ tagline:
   </p>
   {{ post.content }}
   {% endfor %}
-

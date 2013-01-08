@@ -73,24 +73,25 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
+  about_path : /about.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-  comments :
-    provider : false
-    disqus :
-      short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+ # comments :
+ #   provider : false
+ #   disqus :
+ #     short_name : jekyllbootstrap
+ #   livefyre :
+ #     site_id : 123
+ #   intensedebate :
+#      account : 123abc
+ #   facebook :
+#      appid : 123
+#      num_posts: 5
+ #     width: 580
+ #     colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -100,10 +101,6 @@ JB :
     provider : google 
     google : 
         tracking_id : 'UA-37489651-1'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.

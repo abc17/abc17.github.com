@@ -1,18 +1,16 @@
 ---
 layout: page
-title: Привет.
-tagline: Supporting tagline
+title: Простые рецепты по системе "Пятнашки"
+tagline: 
 ---
 {% include JB/setup %}
 
-    
-Список постов:
-
-<ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="meta">
+    {{ post.date | date_to_long_string }} 
+    {% if post.location %}{{ post.location }}{% endif %}
+  </p>
+  {{ post.content }}
   {% endfor %}
-</ul>
-
-
 

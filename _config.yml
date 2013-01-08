@@ -14,8 +14,8 @@ paginate: 10
 title : 15pzzlfit cookbook
 tagline: Простые рецепты по системе "Пятнашки"
 author :
-  name : abc17
-  email : annakutukova@gmail.com
+  name : Anna Kutukova
+  email : anna.kutukova@gmail.com
 
 
 # The production_url is only used when full-domain names are needed

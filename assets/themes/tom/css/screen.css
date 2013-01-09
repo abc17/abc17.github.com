@@ -51,7 +51,10 @@ table {
   font: 100%;
 }
 
-
+hr {
+  border:0px;
+  border-top:#aaa 1px dashed;
+}
 
 /*****************************************************************************/
 /*
@@ -168,8 +171,6 @@ width:7em;
   /* standard */
 
   #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
     padding: 0 .4em;
   }
 
@@ -180,7 +181,6 @@ width:7em;
 
   #post code {
     border: 1px solid #ddd;
-    background-color: #eef;
     font-size: 85%;
     padding: 0 .2em;
   }

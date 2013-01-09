@@ -12,6 +12,7 @@ tagline:
     {% if post.location %}{{ post.location }}{% endif %}
   </p>
   {{ post.content }}
+  <hr>
   {% endfor %}
 
   

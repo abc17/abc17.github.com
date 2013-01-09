@@ -51,6 +51,8 @@ table {
   font: 100%;
 }
 
+
+
 /*****************************************************************************/
 /*
 /* Home
@@ -81,10 +83,21 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
-  margin: 3em auto 2em auto;
+  width: 50em;
+  margin: 0em auto;
   line-height: 1.5em;
 }
+
+.main {
+float:center;
+width:40em;
+}
+
+.sidebar {
+float:right;
+width:7em;
+}
+
 
 .title {
   color: #a00;
